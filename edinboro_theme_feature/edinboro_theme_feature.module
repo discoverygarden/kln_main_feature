@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Edinboro Theme Feature feature.
+ */
+
+include_once 'edinboro_theme_feature.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the kln main feature feature.
+ */
+
+include_once 'kln_main_feature.features.inc';
