@@ -51,7 +51,7 @@ function lockhaven_theme_feature_strongarm() {
     'toggle_main_menu' => 0,
     'toggle_secondary_menu' => 1,
     'default_logo' => 0,
-    'logo_path' => 'public://lhu logo.png',
+    'logo_path' => 'sites/all/themes/kln_theme/images/logos/lhu_logo.png',
     'logo_upload' => '',
     'default_favicon' => 1,
     'favicon_path' => '',

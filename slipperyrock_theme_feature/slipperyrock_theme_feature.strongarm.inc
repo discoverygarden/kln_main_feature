@@ -58,7 +58,7 @@ function slipperyrock_theme_feature_strongarm() {
     'toggle_main_menu' => 0,
     'toggle_secondary_menu' => 1,
     'default_logo' => 0,
-    'logo_path' => 'public://sru-circle-logob.png',
+    'logo_path' => 'sites/all/themes/kln_theme/images/logos/sru-circle-logob.png',
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',

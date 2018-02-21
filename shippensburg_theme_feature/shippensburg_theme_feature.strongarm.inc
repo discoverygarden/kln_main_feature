@@ -51,7 +51,7 @@ function shippensburg_theme_feature_strongarm() {
     'toggle_main_menu' => 0,
     'toggle_secondary_menu' => 1,
     'default_logo' => 0,
-    'logo_path' => 'public://logo-stacked.png',
+    'logo_path' => 'sites/all/themes/kln_theme/images/logos/logo-stacked.png',
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
