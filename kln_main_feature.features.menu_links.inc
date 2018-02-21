@@ -169,23 +169,6 @@ function kln_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_policies:node/14.
-  $menu_links['menu-footer-menu_policies:node/14'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/14',
-    'router_path' => 'node/%',
-    'link_title' => 'Policies',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_policies:node/14',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 0,
-  );
   // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523.
   $menu_links['menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -388,7 +371,7 @@ function kln_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -50,
     'customized' => 1,
   );
   // Exported menu link: user-menu_help:node/17.
@@ -429,7 +412,7 @@ function kln_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -49,
     'customized' => 1,
   );
   // Exported menu link: user-menu_islandora:islandora.
@@ -460,7 +443,7 @@ function kln_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: user-menu_log-out:user/logout.
@@ -477,7 +460,7 @@ function kln_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 10,
+    'weight' => -43,
     'customized' => 1,
   );
   // Exported menu link: user-menu_search:islandora/search.
@@ -508,7 +491,7 @@ function kln_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: user-menu_share:<block>.
@@ -549,16 +532,17 @@ function kln_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 1,
-    'weight' => 0,
+    'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_user:user.
-  $menu_links['user-menu_user:user'] = array(
+  // Exported menu link: user-menu_user-account:user.
+  $menu_links['user-menu_user-account:user'] = array(
     'menu_name' => 'user-menu',
     'link_path' => 'user',
     'router_path' => 'user',
-    'link_title' => 'User',
+    'link_title' => 'User account',
     'options' => array(
+      'alter' => TRUE,
       'icon' => array(
         'bundle' => 'dgi_default_bundle',
         'icon' => 'user',
@@ -570,17 +554,27 @@ function kln_main_feature_menu_default_menu_links() {
         'title_wrapper_element' => 'span',
         'title_wrapper_class' => 'title',
       ),
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 2,
+        'plid' => 0,
+      ),
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'user-menu_user:user',
+      'identifier' => 'user-menu_user-account:user',
     ),
-    'module' => 'menu',
+    'module' => 'system',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -45,
     'customized' => 1,
   );
 
@@ -603,7 +597,7 @@ function kln_main_feature_menu_default_menu_links() {
   t('Researchers');
   t('Search');
   t('Share');
-  t('User');
+  t('User account');
 
   return $menu_links;
 }

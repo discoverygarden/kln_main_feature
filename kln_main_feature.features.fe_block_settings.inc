@@ -52,10 +52,10 @@ function kln_main_feature_default_fe_block_settings() {
     ),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
-        'weight' => -24,
+        'weight' => -28,
       ),
       'kln_theme' => array(
         'region' => '',
@@ -81,8 +81,8 @@ function kln_main_feature_default_fe_block_settings() {
     ),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
         'weight' => -25,
       ),
@@ -138,7 +138,7 @@ function kln_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bootstrap',
-        'weight' => 0,
+        'weight' => -38,
       ),
       'kln_theme' => array(
         'region' => '',
@@ -189,10 +189,10 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'bootstrap',
-        'weight' => 0,
+        'weight' => -31,
       ),
       'kln_theme' => array(
         'region' => 'content',
@@ -219,7 +219,7 @@ function kln_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bootstrap',
-        'weight' => -26,
+        'weight' => -35,
       ),
       'kln_theme' => array(
         'region' => 'content',
@@ -246,7 +246,7 @@ function kln_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bootstrap',
-        'weight' => 0,
+        'weight' => -37,
       ),
       'kln_theme' => array(
         'region' => '',
@@ -270,8 +270,8 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'navigation',
+        'status' => 1,
         'theme' => 'bootstrap',
         'weight' => 0,
       ),
@@ -327,7 +327,7 @@ function kln_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bootstrap',
-        'weight' => -35,
+        'weight' => -38,
       ),
       'kln_theme' => array(
         'region' => 'content',
@@ -354,7 +354,7 @@ function kln_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'bootstrap',
-        'weight' => -33,
+        'weight' => -36,
       ),
       'kln_theme' => array(
         'region' => 'sidebar_first',
@@ -489,7 +489,7 @@ function kln_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bootstrap',
-        'weight' => -28,
+        'weight' => -36,
       ),
       'kln_theme' => array(
         'region' => 'content',
@@ -516,7 +516,7 @@ function kln_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bootstrap',
-        'weight' => -31,
+        'weight' => -34,
       ),
       'kln_theme' => array(
         'region' => 'content',
@@ -540,8 +540,8 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
         'weight' => -30,
       ),
@@ -621,8 +621,8 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
         'weight' => -19,
       ),
@@ -648,8 +648,8 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'header',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
         'weight' => -32,
       ),
@@ -813,7 +813,7 @@ function kln_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bootstrap',
-        'weight' => -27,
+        'weight' => -32,
       ),
       'kln_theme' => array(
         'region' => 'content',
@@ -837,10 +837,10 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_first',
+        'status' => 1,
         'theme' => 'bootstrap',
-        'weight' => 0,
+        'weight' => -38,
       ),
       'kln_theme' => array(
         'region' => 'sidebar_first',
@@ -1110,7 +1110,7 @@ function kln_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bootstrap',
-        'weight' => -33,
+        'weight' => -37,
       ),
       'kln_theme' => array(
         'region' => 'content',
@@ -1161,10 +1161,10 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
-        'weight' => -29,
+        'weight' => -33,
       ),
       'kln_theme' => array(
         'region' => '',
@@ -1242,10 +1242,10 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
-        'weight' => -23,
+        'weight' => -27,
       ),
       'kln_theme' => array(
         'region' => '',
@@ -1296,8 +1296,8 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
         'weight' => -20,
       ),
@@ -1323,8 +1323,8 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
         'weight' => -32,
       ),
@@ -1512,8 +1512,8 @@ function kln_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bootstrap' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bootstrap',
         'weight' => 0,
       ),
