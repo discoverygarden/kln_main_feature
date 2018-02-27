@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Westchester Theme Feature feature.
+ */
+
+include_once 'westchester_theme_feature.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Eaststroudsburg Theme Feature feature.
+ */
+
+include_once 'eaststroudsburg_theme_feature.features.inc';

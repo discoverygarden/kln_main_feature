@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Slipperyrock Theme Feature feature.
+ */
+
+include_once 'slipperyrock_theme_feature.features.inc';

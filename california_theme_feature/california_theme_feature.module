@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the California Theme Feature feature.
+ */
+
+include_once 'california_theme_feature.features.inc';

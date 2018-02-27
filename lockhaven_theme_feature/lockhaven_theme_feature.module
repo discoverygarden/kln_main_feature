@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Lockhaven Theme Feature feature.
+ */
+
+include_once 'lockhaven_theme_feature.features.inc';
