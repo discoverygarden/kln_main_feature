@@ -182,6 +182,34 @@ function kln_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_create_user_default_lists';
+  $strongarm->value = 1;
+  $export['islandora_bookmark_create_user_default_lists'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_default_list_name';
+  $strongarm->value = '@username\'s Default List';
+  $export['islandora_bookmark_default_list_name'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_default_list_view';
+  $strongarm->value = 'manage';
+  $export['islandora_bookmark_default_list_view'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_share_default_list';
+  $strongarm->value = 1;
+  $export['islandora_bookmark_share_default_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_book_page_viewers';
   $strongarm->value = array(
     'name' => array(
