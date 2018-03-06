@@ -374,47 +374,6 @@ function kln_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_help:node/17.
-  $menu_links['user-menu_help:node/17'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'node/17',
-    'router_path' => 'node/%',
-    'link_title' => 'Help',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'icon' => array(
-        'bundle' => 'dgi_default_bundle',
-        'icon' => 'help-circled',
-        'wrapper' => '',
-        'wrapper_class' => '',
-        'position' => 'title_replace',
-        'breadcrumb' => 0,
-        'title_wrapper' => 0,
-        'title_wrapper_element' => 'span',
-        'title_wrapper_class' => 'title',
-      ),
-      'menu_attach_block' => array(
-        'name' => '',
-        'use_ajax' => 0,
-        'no_drop' => 0,
-        'dropped' => 0,
-        'on_hover' => 0,
-        'orientation' => 'horizontal',
-        'mlid' => 758,
-        'plid' => 0,
-      ),
-      'identifier' => 'user-menu_help:node/17',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-  );
   // Exported menu link: user-menu_islandora:islandora.
   $menu_links['user-menu_islandora:islandora'] = array(
     'menu_name' => 'user-menu',
@@ -584,7 +543,6 @@ function kln_main_feature_menu_default_menu_links() {
   t('Bookmarks');
   t('Browse Repository');
   t('Creative content license');
-  t('Help');
   t('Home');
   t('Islandora');
   t('Log in');

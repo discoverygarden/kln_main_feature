@@ -52,6 +52,7 @@ function shippensburg_theme_feature_strongarm() {
     'toggle_secondary_menu' => 1,
     'default_logo' => 0,
     'logo_path' => 'sites/all/themes/kln_theme/images/logos/logo-stacked.png',
+    'logo_upload' => '',
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
@@ -133,7 +134,8 @@ function shippensburg_theme_feature_strongarm() {
     'bootstrap_cdn_jsdelivr_theme' => 'bootstrap',
     'kln_combine_fields' => 'fgs_createdDate_dt,fgs_ownerId_ss',
     'kln_show_solr_labels' => 1,
-    'kln_background_image' => '1',
+    'kln_background_image' => 0,
+    'kln_page_image' => 'images/backgrounds/hortonhall.jpg',
     'kln_show_background_image' => 0,
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(
