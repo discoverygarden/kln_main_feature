@@ -13,6 +13,18 @@ function clarion_theme_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+    'navbar_default' => '#003366',
+    'menu_nav_color' => '#003366',
+    'panel_color' => '#000000',
+    'search_nav' => '#97824A',
+  );
+  $export['designkit_color'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
   $strongarm->value = 'Islandora OnDemand';
   $export['site_name'] = $strongarm;
@@ -125,6 +137,13 @@ function clarion_theme_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'theme_default';
+  $strongarm->value = 'kln_theme';
+  $export['theme_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'theme_kln_theme_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
@@ -220,12 +239,13 @@ function clarion_theme_feature_strongarm() {
     'bootstrap_cdn_jsdelivr_theme' => 'bootstrap',
     'kln_combine_fields' => 'fgs_createdDate_dt,fgs_ownerId_ss',
     'kln_show_solr_labels' => 1,
-    'kln_background_image' => '13',
+    'kln_background_image' => 0,
+    'kln_page_image' => 'images/backgrounds/clarion.jpg',
     'kln_show_background_image' => 0,
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(
       'navbar_default' => '#003366',
-      'menu_nav_color' => '#a3dc00',
+      'menu_nav_color' => '#003366',
       'panel_color' => '#000000',
       'search_nav' => '#97824A',
     ),
