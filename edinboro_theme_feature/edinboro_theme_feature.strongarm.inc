@@ -16,6 +16,9 @@ function edinboro_theme_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'navbar_default' => '#e4dfd6',
+    'breadcrumb_text' => '#000000',
+    'body_text' => '#000000',
+    'landing_text' => '#337ab7',
     'menu_nav_color' => '#bb141a',
     'panel_color' => '#e4dfd6',
     'search_nav' => '#8b0304',
@@ -140,6 +143,9 @@ function edinboro_theme_feature_strongarm() {
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(
       'navbar_default' => '#e4dfd6',
+      'breadcrumb_text' => '#000000',
+      'body_text' => '#000000',
+      'landing_text' => '#337ab7',
       'menu_nav_color' => '#bb141a',
       'panel_color' => '#e4dfd6',
       'search_nav' => '#8b0304',

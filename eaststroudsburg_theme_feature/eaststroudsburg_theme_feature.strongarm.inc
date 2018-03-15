@@ -16,6 +16,9 @@ function eaststroudsburg_theme_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'navbar_default' => '#db0436',
+    'breadcrumb_text' => '#ffffff',
+    'body_text' => '#ffffff',
+    'landing_text' => '#ffffff',
     'menu_nav_color' => '#db0436',
     'panel_color' => '#000000',
     'search_nav' => '#db0436',
@@ -140,6 +143,9 @@ function eaststroudsburg_theme_feature_strongarm() {
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(
       'navbar_default' => '#db0436',
+      'breadcrumb_text' => '#ffffff',
+      'body_text' => '#ffffff',
+      'landing_text' => '#ffffff',
       'menu_nav_color' => '#db0436',
       'panel_color' => '#000000',
       'search_nav' => '#db0436',

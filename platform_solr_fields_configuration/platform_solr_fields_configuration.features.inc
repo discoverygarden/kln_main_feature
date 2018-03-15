@@ -21,9 +21,9 @@ function platform_solr_fields_configuration_islandora_solr_fields_features_defau
   0 => array(
     'solr_field' => 'dc.title',
     'field_type' => 'result_fields',
-    'weight' => -10,
+    'weight' => 0,
     'solr_field_settings' => array(
-      'label' => '',
+      'label' => 'Title',
       'snippet' => NULL,
       'date_format' => '',
       'truncation_type' => 'separate_value_option',
@@ -41,72 +41,6 @@ function platform_solr_fields_configuration_islandora_solr_fields_features_defau
     ),
   ),
   1 => array(
-    'solr_field' => 'fgs_createdDate_dt',
-    'field_type' => 'result_fields',
-    'weight' => -9,
-    'solr_field_settings' => array(
-      'label' => '',
-      'snippet' => NULL,
-      'date_format' => 'M d Y',
-      'truncation_type' => 'separate_value_option',
-      'maximum_length' => 0,
-      'add_ellipsis' => FALSE,
-      'wordsafe' => FALSE,
-      'wordsafe_length' => 1,
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-      'link_to_object' => FALSE,
-      'link_to_search' => FALSE,
-    ),
-  ),
-  2 => array(
-    'solr_field' => 'fgs_ownerId_ss',
-    'field_type' => 'result_fields',
-    'weight' => -8,
-    'solr_field_settings' => array(
-      'label' => 'Author',
-      'snippet' => NULL,
-      'date_format' => '',
-      'truncation_type' => 'separate_value_option',
-      'maximum_length' => 0,
-      'add_ellipsis' => FALSE,
-      'wordsafe' => FALSE,
-      'wordsafe_length' => 1,
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-      'link_to_object' => FALSE,
-      'link_to_search' => FALSE,
-    ),
-  ),
-  3 => array(
-    'solr_field' => 'dc.description',
-    'field_type' => 'result_fields',
-    'weight' => -7,
-    'solr_field_settings' => array(
-      'label' => 'Description',
-      'snippet' => NULL,
-      'date_format' => '',
-      'truncation_type' => 'separate_value_option',
-      'maximum_length' => 125,
-      'add_ellipsis' => FALSE,
-      'wordsafe' => FALSE,
-      'wordsafe_length' => 1,
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-      'link_to_object' => FALSE,
-      'link_to_search' => FALSE,
-    ),
-  ),
-  4 => array(
     'solr_field' => 'dc.title',
     'field_type' => 'search_fields',
     'weight' => 0,
@@ -115,7 +49,7 @@ function platform_solr_fields_configuration_islandora_solr_fields_features_defau
       'permissions' => FALSE,
     ),
   ),
-  5 => array(
+  2 => array(
     'solr_field' => 'fgs_label_ss',
     'field_type' => 'sort_fields',
     'weight' => 0,
@@ -128,7 +62,7 @@ function platform_solr_fields_configuration_islandora_solr_fields_features_defau
       ),
     ),
   ),
-  6 => array(
+  3 => array(
     'solr_field' => 'fgs_createdDate_dt',
     'field_type' => 'facet_fields',
     'weight' => 0,
@@ -152,7 +86,29 @@ function platform_solr_fields_configuration_islandora_solr_fields_features_defau
       ),
     ),
   ),
-  7 => array(
+  4 => array(
+    'solr_field' => 'dc.description',
+    'field_type' => 'result_fields',
+    'weight' => 1,
+    'solr_field_settings' => array(
+      'label' => 'Description',
+      'snippet' => NULL,
+      'date_format' => '',
+      'truncation_type' => 'separate_value_option',
+      'maximum_length' => 95,
+      'add_ellipsis' => FALSE,
+      'wordsafe' => FALSE,
+      'wordsafe_length' => 1,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+      'link_to_object' => FALSE,
+      'link_to_search' => FALSE,
+    ),
+  ),
+  5 => array(
     'solr_field' => 'fgs_createdDate_dt',
     'field_type' => 'sort_fields',
     'weight' => 1,
@@ -165,7 +121,7 @@ function platform_solr_fields_configuration_islandora_solr_fields_features_defau
       ),
     ),
   ),
-  8 => array(
+  6 => array(
     'solr_field' => 'fgs_createdDate_dt',
     'field_type' => 'search_fields',
     'weight' => 1,
@@ -178,7 +134,7 @@ function platform_solr_fields_configuration_islandora_solr_fields_features_defau
       ),
     ),
   ),
-  9 => array(
+  7 => array(
     'solr_field' => 'RELS_EXT_hasModel_uri_mt',
     'field_type' => 'search_fields',
     'weight' => 2,
@@ -191,7 +147,7 @@ function platform_solr_fields_configuration_islandora_solr_fields_features_defau
       ),
     ),
   ),
-  10 => array(
+  8 => array(
     'solr_field' => 'dc.description',
     'field_type' => 'search_fields',
     'weight' => 3,
@@ -204,7 +160,7 @@ function platform_solr_fields_configuration_islandora_solr_fields_features_defau
       ),
     ),
   ),
-  11 => array(
+  9 => array(
     'solr_field' => 'catch_all_fields_mt',
     'field_type' => 'search_fields',
     'weight' => 4,

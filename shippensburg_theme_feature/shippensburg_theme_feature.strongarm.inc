@@ -16,6 +16,9 @@ function shippensburg_theme_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'navbar_default' => '#000000',
+    'breadcrumb_text' => '#ffffff',
+    'body_text' => '#ffffff',
+    'landing_text' => '#337ab7',
     'menu_nav_color' => '#223140',
     'panel_color' => '#000000',
     'search_nav' => '#ED4048',
@@ -140,6 +143,9 @@ function shippensburg_theme_feature_strongarm() {
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(
       'navbar_default' => '#000000',
+      'breadcrumb_text' => '#ffffff',
+      'body_text' => '#ffffff',
+      'landing_text' => '#337ab7',
       'menu_nav_color' => '#223140',
       'panel_color' => '#000000',
       'search_nav' => '#ED4048',
