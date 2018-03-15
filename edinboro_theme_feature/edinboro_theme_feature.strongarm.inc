@@ -59,7 +59,7 @@ function edinboro_theme_feature_strongarm() {
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
-    'bootstrap__active_tab' => 'edit-general',
+    'bootstrap__active_tab' => 'edit-kln-theme-general',
     'bootstrap_fluid_container' => 0,
     'bootstrap_button_size' => '',
     'bootstrap_button_colorize' => 1,
