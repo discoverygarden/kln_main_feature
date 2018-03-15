@@ -16,6 +16,9 @@ function california_theme_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'navbar_default' => '#000000',
+    'breadcrumb_text' => '#ffffff',
+    'body_text' => '#ffffff',
+    'landing_text' => '#ffffff',
     'menu_nav_color' => '#505050',
     'panel_color' => '#000000',
     'search_nav' => '#C00000',
@@ -248,7 +251,7 @@ function california_theme_feature_strongarm() {
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
-    'bootstrap__active_tab' => 'edit-kln-theme-general',
+    'bootstrap__active_tab' => 'edit-general',
     'bootstrap_fluid_container' => 0,
     'bootstrap_button_size' => '',
     'bootstrap_button_colorize' => 1,
@@ -332,6 +335,9 @@ function california_theme_feature_strongarm() {
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(
       'navbar_default' => '#000000',
+      'breadcrumb_text' => '#ffffff',
+      'body_text' => '#ffffff',
+      'landing_text' => '#ffffff',
       'menu_nav_color' => '#505050',
       'panel_color' => '#000000',
       'search_nav' => '#C00000',

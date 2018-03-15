@@ -16,6 +16,9 @@ function lockhaven_theme_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'navbar_default' => '#000000',
+    'breadcrumb_text' => '#000000',
+    'body_text' => '#000000',
+    'landing_text' => '#337ab7',
     'menu_nav_color' => '#a50034',
     'panel_color' => '#c7c9c7',
     'search_nav' => '#a50034',
@@ -140,6 +143,9 @@ function lockhaven_theme_feature_strongarm() {
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(
       'navbar_default' => '#000000',
+      'breadcrumb_text' => '#000000',
+      'body_text' => '#000000',
+      'landing_text' => '#337ab7',
       'menu_nav_color' => '#a50034',
       'panel_color' => '#c7c9c7',
       'search_nav' => '#a50034',

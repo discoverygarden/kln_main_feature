@@ -59,7 +59,7 @@ function edinboro_theme_feature_strongarm() {
     'default_favicon' => 0,
     'favicon_path' => '',
     'favicon_upload' => '',
-    'bootstrap__active_tab' => 'edit-general',
+    'bootstrap__active_tab' => 'edit-kln-theme-general',
     'bootstrap_fluid_container' => 0,
     'bootstrap_button_size' => '',
     'bootstrap_button_colorize' => 1,
@@ -138,7 +138,7 @@ function edinboro_theme_feature_strongarm() {
     'kln_combine_fields' => 'fgs_createdDate_dt,fgs_ownerId_ss',
     'kln_show_solr_labels' => 1,
     'kln_background_image' => 0,
-    'kln_page_image' => 'images/backgrounds/clarion.jpg',
+    'kln_page_image' => 'images/backgrounds/campus_entrance_identification_signage.jpg',
     'kln_show_background_image' => 0,
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(

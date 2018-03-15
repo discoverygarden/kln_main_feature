@@ -16,6 +16,9 @@ function bloomsburg_theme_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'navbar_default' => '#7a0101',
+    'breadcrumb_text' => '#ffffff',
+    'body_text' => '#ffffff',
+    'landing_text' => '#ffffff',
     'menu_nav_color' => '#7a0101',
     'panel_color' => '#000000',
     'search_nav' => '#ffff01',
@@ -332,6 +335,9 @@ function bloomsburg_theme_feature_strongarm() {
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(
       'navbar_default' => '#7a0101',
+      'breadcrumb_text' => '#ffffff',
+      'body_text' => '#ffffff',
+      'landing_text' => '#ffffff',
       'menu_nav_color' => '#7a0101',
       'panel_color' => '#000000',
       'search_nav' => '#ffff01',
