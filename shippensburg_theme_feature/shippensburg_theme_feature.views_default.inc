@@ -132,6 +132,13 @@ function shippensburg_theme_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['element_class'] = 'desc-field';
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Islandora Solr: PID */
+  $handler->display->display_options['filters']['PID']['id'] = 'PID';
+  $handler->display->display_options['filters']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['PID']['field'] = 'PID';
+  $handler->display->display_options['filters']['PID']['value'] = 'islandora:9';
   $handler->display->display_options['block_description'] = 'Front Page Owl Slideshow';
 
   /* Display: Full Screen Front Page Slideshow */
