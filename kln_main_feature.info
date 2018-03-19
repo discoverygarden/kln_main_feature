@@ -33,7 +33,6 @@ dependencies[] = list
 dependencies[] = menu
 dependencies[] = menu_attach_block
 dependencies[] = node_export_features
-dependencies[] = node
 dependencies[] = node_export_features
 dependencies[] = options
 dependencies[] = owlcarousel_views

@@ -160,6 +160,7 @@ function bloomsburg_theme_feature_views_default_views() {
   $handler->display->display_options['fields']['tn_cache']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['tn_cache']['field'] = 'tn_cache';
   $handler->display->display_options['fields']['tn_cache']['label'] = '';
+  $handler->display->display_options['fields']['tn_cache']['exclude'] = TRUE;
   $handler->display->display_options['fields']['tn_cache']['element_type'] = 'div';
   $handler->display->display_options['fields']['tn_cache']['element_class'] = 'front-page-slideshow-wrapper';
   $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
@@ -202,13 +203,6 @@ function bloomsburg_theme_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="front-page-container">
   [block]
-  <div class="page-data">
-    <h4>Shown: </h4>
-    <div class="page-data--inner">
-      <div class="title"><h3>[dc.title] <i title="down-open-big" class="icon icon-down-open-big down-open-big" aria-hidden="true"></i></h3></div>
-      <div class="description">[dc.description]</div>
-    </div>
-  </div>
 </div>';
   $handler->display->display_options['fields']['nothing']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['nothing']['alter']['ellipsis'] = FALSE;
@@ -249,13 +243,6 @@ function bloomsburg_theme_feature_views_default_views() {
     t('A variant of the front page slideshow, built to leverage islandora imagecache.'),
     t('<div class="front-page-container">
   [block]
-  <div class="page-data">
-    <h4>Shown: </h4>
-    <div class="page-data--inner">
-      <div class="title"><h3>[dc.title] <i title="down-open-big" class="icon icon-down-open-big down-open-big" aria-hidden="true"></i></h3></div>
-      <div class="description">[dc.description]</div>
-    </div>
-  </div>
 </div>'),
     t('Front Page Owl Slideshow Image Cache'),
   );

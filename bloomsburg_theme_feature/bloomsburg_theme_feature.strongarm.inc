@@ -15,12 +15,15 @@ function bloomsburg_theme_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'navbar_default' => '#7a0101',
+    'body_background' => '#ffffff',
+    'front_button' => '#ffffff',
+    'navbar_default' => '#760019',
     'breadcrumb_text' => '#ffffff',
-    'body_text' => '#ffffff',
-    'landing_text' => '#ffffff',
+    'body_text' => '#000000',
+    'landing_text' => '#000000',
+    'obj_link_default' => '#000000',
     'menu_nav_color' => '#7a0101',
-    'panel_color' => '#000000',
+    'panel_color' => '#e1e1e1',
     'search_nav' => '#ffff01',
   );
   $export['designkit_color'] = $strongarm;
@@ -251,7 +254,7 @@ function bloomsburg_theme_feature_strongarm() {
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
-    'bootstrap__active_tab' => 'edit-kln-theme-general',
+    'bootstrap__active_tab' => 'edit-general',
     'bootstrap_fluid_container' => 0,
     'bootstrap_button_size' => '',
     'bootstrap_button_colorize' => 1,
@@ -331,15 +334,18 @@ function bloomsburg_theme_feature_strongarm() {
     'kln_show_solr_labels' => 1,
     'kln_background_image' => 0,
     'kln_page_image' => 'images/backgrounds/BU_Carver.jpg',
-    'kln_show_background_image' => 0,
+    'kln_show_background_image' => 1,
     'kln_show_frontpage_view' => 1,
     'designkit_color' => array(
-      'navbar_default' => '#7a0101',
+      'body_background' => '#ffffff',
+      'front_button' => '#ffffff',
+      'navbar_default' => '#760019',
       'breadcrumb_text' => '#ffffff',
-      'body_text' => '#ffffff',
-      'landing_text' => '#ffffff',
+      'body_text' => '#000000',
+      'landing_text' => '#000000',
+      'obj_link_default' => '#000000',
       'menu_nav_color' => '#7a0101',
-      'panel_color' => '#000000',
+      'panel_color' => '#e1e1e1',
       'search_nav' => '#ffff01',
     ),
   );
