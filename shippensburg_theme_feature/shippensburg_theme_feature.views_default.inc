@@ -132,13 +132,6 @@ function shippensburg_theme_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['element_class'] = 'desc-field';
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
-  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
-  $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Islandora Solr: PID */
-  $handler->display->display_options['filters']['PID']['id'] = 'PID';
-  $handler->display->display_options['filters']['PID']['table'] = 'islandora_solr';
-  $handler->display->display_options['filters']['PID']['field'] = 'PID';
-  $handler->display->display_options['filters']['PID']['value'] = 'islandora:9';
   $handler->display->display_options['block_description'] = 'Front Page Owl Slideshow';
 
   /* Display: Full Screen Front Page Slideshow */
@@ -167,6 +160,7 @@ function shippensburg_theme_feature_views_default_views() {
   $handler->display->display_options['fields']['tn_cache']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['tn_cache']['field'] = 'tn_cache';
   $handler->display->display_options['fields']['tn_cache']['label'] = '';
+  $handler->display->display_options['fields']['tn_cache']['exclude'] = TRUE;
   $handler->display->display_options['fields']['tn_cache']['element_type'] = 'div';
   $handler->display->display_options['fields']['tn_cache']['element_class'] = 'front-page-slideshow-wrapper';
   $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
@@ -209,13 +203,6 @@ function shippensburg_theme_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="front-page-container">
   [block]
-  <div class="page-data">
-    <h4>Shown: </h4>
-    <div class="page-data--inner">
-      <div class="title"><h3>[dc.title] <i title="down-open-big" class="icon icon-down-open-big down-open-big" aria-hidden="true"></i></h3></div>
-      <div class="description">[dc.description]</div>
-    </div>
-  </div>
 </div>';
   $handler->display->display_options['fields']['nothing']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['nothing']['alter']['ellipsis'] = FALSE;
@@ -249,13 +236,6 @@ function shippensburg_theme_feature_views_default_views() {
     t('A variant of the front page slideshow, built to leverage islandora imagecache.'),
     t('<div class="front-page-container">
   [block]
-  <div class="page-data">
-    <h4>Shown: </h4>
-    <div class="page-data--inner">
-      <div class="title"><h3>[dc.title] <i title="down-open-big" class="icon icon-down-open-big down-open-big" aria-hidden="true"></i></h3></div>
-      <div class="description">[dc.description]</div>
-    </div>
-  </div>
 </div>'),
     t('Front Page Owl Slideshow Image Cache'),
   );
