@@ -65,5 +65,15 @@ function kln_main_feature_user_default_permissions() {
     'module' => 'islandora',
   );
 
+  // Exported permission: 'view the administration theme'.
+  $permissions['view the administration theme'] = array(
+    'name' => 'view the administration theme',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'system',
+  );
+
   return $permissions;
 }
