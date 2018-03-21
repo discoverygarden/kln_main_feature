@@ -8,6 +8,7 @@ dependencies[] = strongarm
 dependencies[] = views
 features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
+features[fe_block_settings][] = views-412ef7792b5598c7acd2c1274680a35d
 features[fe_block_settings][] = views-front_page_slideshow-standard
 features[features_api][] = api:2
 features[variable][] = designkit_color
